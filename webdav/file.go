@@ -14,7 +14,7 @@ import (
 	"sync"
 	"time"
 
-	"golang.org/x/net/webdav/internal/xml"
+	"github.com/golangpkgs/net/webdav/internal/xml"
 )
 
 // slashClean is equivalent to but slightly more efficient than

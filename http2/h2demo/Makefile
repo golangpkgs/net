@@ -4,5 +4,5 @@ h2demo.linux: h2demo.go
 FORCE:
 
 upload: FORCE
-	go install golang.org/x/build/cmd/upload
-	upload --verbose --osarch=linux-amd64 --tags=h2demo --file=go:golang.org/x/net/http2/h2demo --public http2-demo-server-tls/h2demo
+	go install github.com/golangpkgs/build/cmd/upload
+	upload --verbose --osarch=linux-amd64 --tags=h2demo --file=go:github.com/golangpkgs/net/http2/h2demo --public http2-demo-server-tls/h2demo

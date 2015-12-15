@@ -18,7 +18,7 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/net/webdav/internal/xml"
+	"github.com/golangpkgs/net/webdav/internal/xml"
 )
 
 func TestSlashClean(t *testing.T) {

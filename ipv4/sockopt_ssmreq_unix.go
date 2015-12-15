@@ -11,7 +11,7 @@ import (
 	"os"
 	"unsafe"
 
-	"golang.org/x/net/internal/iana"
+	"github.com/golangpkgs/net/internal/iana"
 )
 
 var freebsd32o64 bool

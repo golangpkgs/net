@@ -13,7 +13,7 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"golang.org/x/net/webdav/internal/xml"
+	"github.com/golangpkgs/net/webdav/internal/xml"
 )
 
 // Proppatch describes a property update instruction as defined in RFC 4918.

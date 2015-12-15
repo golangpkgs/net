@@ -22,7 +22,7 @@ import (
 	"strings"
 	"sync"
 
-	"golang.org/x/net/http2/hpack"
+	"github.com/golangpkgs/net/http2/hpack"
 )
 
 const (

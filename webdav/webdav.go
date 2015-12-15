@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 // Package webdav etc etc TODO.
-package webdav // import "golang.org/x/net/webdav"
+package webdav // import "github.com/golangpkgs/net/webdav"
 
 import (
 	"errors"
@@ -23,7 +23,7 @@ import (
 // package version 1.5 or greater. Otherwise, it will produce malformed XML.
 //
 // As of May 2015, the Go stable release is version 1.4, so we print a message
-// to let users know that this golang.org/x/etc package won't work yet.
+// to let users know that this github.com/golangpkgs/etc package won't work yet.
 //
 // This package also won't work with Go 1.3 and earlier, but making this
 // runtime version check catch all the earlier versions too, and not just

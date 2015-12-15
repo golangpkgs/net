@@ -13,7 +13,7 @@ import (
 	"log"
 	"math"
 
-	"golang.org/x/net/internal/timeseries"
+	"github.com/golangpkgs/net/internal/timeseries"
 )
 
 const (

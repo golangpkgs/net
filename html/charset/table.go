@@ -3,13 +3,13 @@
 package charset
 
 import (
-	"golang.org/x/text/encoding"
-	"golang.org/x/text/encoding/charmap"
-	"golang.org/x/text/encoding/japanese"
-	"golang.org/x/text/encoding/korean"
-	"golang.org/x/text/encoding/simplifiedchinese"
-	"golang.org/x/text/encoding/traditionalchinese"
-	"golang.org/x/text/encoding/unicode"
+	"github.com/golangpkgs/text/encoding"
+	"github.com/golangpkgs/text/encoding/charmap"
+	"github.com/golangpkgs/text/encoding/japanese"
+	"github.com/golangpkgs/text/encoding/korean"
+	"github.com/golangpkgs/text/encoding/simplifiedchinese"
+	"github.com/golangpkgs/text/encoding/traditionalchinese"
+	"github.com/golangpkgs/text/encoding/unicode"
 )
 
 var encodings = map[string]struct {
